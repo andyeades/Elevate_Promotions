@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Elevate::top_level" module="Elevate_Promotions" resource="Magento_Backend::content" sortOrder="9999" title="Elevate"/>
+		<add action="elevate_promotions/promotions/index" id="Elevate_Promotions::elevate_promotions_promotions" module="Elevate_Promotions" parent="Elevate::top_level" resource="Magento_Backend::content" sortOrder="9999" title="promotions"/>
+	</menu>
+</config>
